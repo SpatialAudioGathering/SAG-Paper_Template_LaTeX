@@ -1,10 +1,10 @@
 # SAG Paper Template LaTeX
 
-This repository includes the LaTeX template for paper and short papers presented at SAG - Spatial Audio Gathering conference. The LaTeX class suppoting the template and the default content were created from scratch by Enrico Dorigatti specifically for SAG, and do not rely on existing code.
+This repository includes the LaTeX template for paper and short papers presented at SAG - Spatial Audio Gathering conference. This template and all the code, elements, and text contained, were created by Enrico Dorigatti specifically for SAG, and do not rely on existing code.
 
 The template is the same for long and short papers, and is organised as a one-column document, specifically aimed at improving readability.
 
-For consistency reasons, only a LaTeX template is provided, in place of the usual Word + LaTeX combination. However, the template can be opened and edited in OverLeaf, in place of a local LaTeX instannation, making the entire process straightforward.
+For consistency reasons, only a LaTeX template is provided, in place of the usual Word + LaTeX combination. However, the template can be opened and edited in OverLeaf, in place of a local LaTeX installation, making the entire process straightforward.
 
 ## Text in the template
 
@@ -13,11 +13,11 @@ The template comes already filled with:
 - title
 - abstract
 - list of mock authors
-- main text: it explains how to use the template and introduces LaTeX to the newcomers, explaining and demonstrating the main commands. Expert LaTeX users can remove it and start to fill it immediately with their data. However, LaTeX newcomers are strongly encouraged to familiarise with the main commands and the best practices
+- main text: it explains how to use the template and introduces LaTeX to the newcomers, explaining and demonstrating the main commands. Expert LaTeX users can remove it and start to fill it immediately with their data. However, LaTeX newcomers are strongly encouraged to familiarise themselves with the main commands and the best practices
 - elements such as lists, tables, and pictures. The `images` folder contains a `placeholder.pdf` which is used as a sample image. Do not remove the folder unless you're sure you will not use images in your document. It is nevertheless suggested to simply remove the sample image from the text
 - references: the `bibliography.bib` file contains some mock entries which are used to demonstrate how to reference sources
 
-Again, LaTeX newcomers are strongly encouraged to familiarise with the main commands and their use through the text filling the template by default.
+Again, LaTeX newcomers are strongly encouraged to familiarise themselves with the main commands and their use through the text filling the template by default.
 
 ## Composition of the package
 
@@ -31,4 +31,9 @@ Within the .zip package containing the template, you'll find:
 
 Please note that the `sag.sty` class supporting this template accepts an optional argument when recalled. When you recall it, you can either:
 - recall it through `\usepackage{sag}`: this loads the default class to compile the document as-is. Use this option for he Camera-Ready version of your contribution (non-anonymous)
-- recall it through `\usepackage[anonymous]{sag}`: the optional argument _anonymous_ in square brackets tells the class to hide real names, institutions, and other personal data of the authors both in the first page and the headers. Use this options if your have to anonymise your contribution, such as when submitting it for peer-review
+- recall it through `\usepackage[anonymous]{sag}`: the optional argument _anonymous_ in square brackets tells the class to hide real names, institutions, and other personal data of the authors both in the first page and the headers. Use this option if your have to anonymise your contribution, such as when submitting it for peer-review
+
+## License and use of this template beyond SAG
+This template is licensed under the Creative Commons Attribution-ShareAlike 4.0 International licence ([CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/ "View Licence Legal Code")). You are free to use, share, and adapt the material for any purpose, provided that you give appropriate credit to the original author and distribute any modified versions under the same licence. For the full legal code, please refer to the Creative Commons website.
+
+[![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-sa/4.0/)
