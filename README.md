@@ -30,7 +30,7 @@ Within the .zip package containing the template, you'll find:
 ## Anonymity
 
 Please note that the `sag.sty` class supporting this template accepts an optional argument when recalled. When you recall it, you can either:
-- recall it through `\usepackage{sag}`: this loads the default class to compile the document as-is. Use this option for he Camera-Ready version of your contribution (non-anonymous)
+- recall it through `\usepackage{sag}`: this loads the default class to compile the document as-is. Use this option for the Camera-Ready version of your contribution (non-anonymised)
 - recall it through `\usepackage[anonymous]{sag}`: the optional argument _anonymous_ in square brackets tells the class to hide real names, institutions, and other personal data of the authors both in the first page and the headers. Use this option if your have to anonymise your contribution, such as when submitting it for peer-review
 
 ## License and use of this template beyond SAG
